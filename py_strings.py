@@ -1,4 +1,5 @@
 def reverse(text: str) -> str:
+reversed_text = text[::-1]
     """
     Return the 'text' backwards.
 
@@ -13,7 +14,8 @@ def reverse(text: str) -> str:
         The text written backwards.
     """
     pass
-
+    print(reversed_text)
+    return reversed_text
 
 def first_to_upper(text: str) -> str:
     """
@@ -30,6 +32,10 @@ def first_to_upper(text: str) -> str:
         The modified text
     """
     pass
+def capitalize_first_letter(text):
+    words = text.split()
+    capitalized_words = [word.capitalize() for word in words]
+    return ' '.join(capitalized_words)
 
 
 def count_vowels(text: str) -> int:
@@ -65,7 +71,7 @@ def sum_digits(text: str) -> int:
     """
     pass
 
-
+print ('hjghj')
 def search_substr(text: str, sub: str) -> int:
     """
     Search for sub(string) in the text. Returns the position or None.
@@ -81,3 +87,7 @@ def search_substr(text: str, sub: str) -> int:
         Position of the sub(string) or None.
     """
     pass
+
+
+
+print ('Hello')
